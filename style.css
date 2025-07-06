@@ -185,13 +185,29 @@ font-size: 3rem;
     display: grid;
     grid-template-columns:repeat(5,1fr);
 }
-.footer
-{
-    background-color: #FF900E;
-    width: 620px ;
-    height: 100px;
-    text-align: center;
+
+/* footer design */
+
+.footer-body{
+width: 1440px;
+height: 50px;
+margin: 240px  240px 130px  240px ;
+border-radius: 8px;
+background: rgb(255, 244, 231);
+align-items: center;
+
 }
+.footer-description{
+   
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
 
 /* Media queary */
 @media screen and (max-width:1080px)
@@ -202,7 +218,7 @@ font-size: 3rem;
  .team-img-container,
  .facts-container,
  .sponsor-companies{
-    grid-template-columns: repeat(1,1fr);
+ grid-template-columns: repeat(1,1fr);
  }
  .our-feature{
     margin-left: 20px;
@@ -221,6 +237,12 @@ font-size: 3rem;
  }
  .featured-architect img{
     width: 100%;
+}
+.footer-body{
+gap: 24px;
+width: 100%;
+margin: 240px  240px 130px  240px ;
+
 }
 
  
